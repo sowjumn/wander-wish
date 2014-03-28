@@ -35,7 +35,6 @@ class WishListApp
     @purchaser = Purchaser.new(users)
     purchaser.perform
   end
-
 end
 
 wish_list_app = WishListApp.new

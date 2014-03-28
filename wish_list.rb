@@ -5,10 +5,10 @@ class WishList
 
   def initialize(name)
     @name = name
-    @items = []
+    @items = {}
   end
 
   def add_item(name)
-    @items.push(Item.new(name))
+    @items[name]= Item.new(name)
   end
 end
